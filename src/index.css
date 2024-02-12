@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page{
+  display: contents;
+}
+
+.page__text {
+  font-size: calc(40px + 2vmin);
+}
+
+.page__logo-wrapper {
+  cursor: pointer;
+}
+
+.page-row{
+  display: flex;
+  align-items: center;
+  font-size: calc(40px + 2vmin);
+  text-align: center;
+  color: white;
+}
+
+.page-row__counter {
+  margin: 20px 50px 20px 50px
+}
+
+.page-row__button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  background-color: transparent;
+  font-size: calc(40px + 2vmin);
+  text-align: center;
+  color: white;
+}
